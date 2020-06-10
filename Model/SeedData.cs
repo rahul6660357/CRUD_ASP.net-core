@@ -25,14 +25,16 @@ namespace DempApplication.Model
                     Title = "When Harry Met Sally",
                     releaseDate = DateTime.Parse("1989-2-12"),
                     genric = "Romantic Comedy",
-                    price = 7.99M
+                    price = 7.99M,
+                    Rating = "R"
                 },
                  new Movie
                  {
                      Title = "Ghostbusters ",
                      releaseDate = DateTime.Parse("1984-3-13"),
                      genric = "Comedy",
-                     price = 8.99M
+                     price = 8.99M,
+                      Rating = "R"
                  },
 
                     new Movie
@@ -40,7 +42,8 @@ namespace DempApplication.Model
                         Title = "Ghostbusters 2",
                         releaseDate = DateTime.Parse("1986-2-23"),
                         genric = "Comedy",
-                        price = 9.99M
+                        price = 9.99M,
+                        Rating = "R"
                     },
 
                     new Movie
@@ -48,7 +51,8 @@ namespace DempApplication.Model
                         Title = "Rio Bravo",
                         releaseDate = DateTime.Parse("1959-4-15"),
                         genric = "Western",
-                        price = 3.99M
+                        price = 3.99M,
+                        Rating = "R"
                     }
                 );
                 context.SaveChanges();
